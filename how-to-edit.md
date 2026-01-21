@@ -1,10 +1,9 @@
 # How to edit
 
 1. Clone this repository using `git@github.com:equipez/equipez.github.io.git`.
-2. Create and edit any Markdown file.
-3. Push the local repository using `git push`.
-4. If you need to add a link to a new file on the homepage,
-   use a relative path without the `.md` file extension,
-   for example, access this file using `[How to edit](./how-to-edit)`.
-5. See [GitHub Pages documentation](https://docs.github.com/en/pages)
-   for more information.
+2. Create or edit Markdown files within the repository.
+3. Commit and push your changes.
+4. Add links to the homepage using relative paths without the `.md` extension.
+   - Example: `[How to Edit](./how-to-edit)`
+5. Refer to the [GitHub Pages documentation](https://docs.github.com/en/pages)
+   for more advanced configuration.
