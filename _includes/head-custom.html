@@ -1,5 +1,8 @@
 <link rel="icon" type="image/png" href="{{ '/favicon.png' | relative_url }}" />
 
+{% assign has_math = false %} {% if page.content contains '$' or page.content
+contains '\(' or page.content contains '\[' or page.content contains '\begin{'
+%} {% assign has_math = true %} {% endif %} {% if has_math %}
 <script>
   window.MathJax = {
     tex: {
@@ -22,3 +25,4 @@
   async
   src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"
 ></script>
+{% endif %}
