@@ -58,13 +58,13 @@ $$
 2. B
 3. C
 
-### Data Comparison Table
+### Table
 
-| Feature    | Syntax     | Status   |
-| ---------- | ---------- | -------- |
-| **Tables** | `          | ...      |
-| **Images** | `![alt]()` | Rendered |
-| **Math**   | `$ ... $`  | Rendered |
+| Feature    | Data     |
+| ---------- | -------- |
+| 1          | A        |
+| 2          | B        |
+| 3          | C        |
 
 ## Chinese test
 

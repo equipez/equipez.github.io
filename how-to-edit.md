@@ -6,3 +6,5 @@
 4. If you need to add a link to a new file on the homepage,
    use a relative path without the `.md` file extension,
    for example, access this file using `[How to edit](./how-to-edit)`.
+5. See [GitHub Pages documentation](https://docs.github.com/en/pages)
+   for more information.
