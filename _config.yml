@@ -1,4 +1,5 @@
 theme: jekyll-theme-minimal
+logo: /favicon.png
 
 markdown: kramdown
 kramdown:
