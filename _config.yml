@@ -1,3 +1,10 @@
+# Use minimal theme. See
+# https://docs.github.com/en/pages/setting-up-a-github-pages-site-with-jekyll/adding-a-theme-to-your-github-pages-site-using-jekyll
+# for more information
+# NOTE: The currently used minimal theme has been modified via
+# `/_includes/default.html`. If you need to use a different theme,
+# please delete `/_includes/default.html`, otherwise there may be
+# formatting issues.
 theme: jekyll-theme-minimal
 
 markdown: kramdown
