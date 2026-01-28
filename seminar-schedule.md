@@ -31,7 +31,7 @@ The seminar will rotate among group members in the following order, starting fro
 
 The detailed schedule is as follows. It may be adjusted based on the actual situation.
 | Week number | Speakers        |
-|-------------|-----------------|
+| ----------- | --------------- |
 | 01 | LI Haitian, HUANG Cunxin |
 | 02 | JIANG Zao, LIN Chengqing |
 | 03 | CHEN Yu, ZHU Huatao      |
