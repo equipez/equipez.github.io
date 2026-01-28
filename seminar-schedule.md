@@ -30,23 +30,23 @@ The seminar will rotate among group members in the following order, starting fro
 - CHEN Yu, ZHU Huatao
 
 The detailed schedule is as follows. It may be adjusted based on the actual situation.
-|Week number  | Speakers      |
-|-------------|---------------|
-|01|  LI Haitian, HUANG Cunxin|
-|02|  JIANG Zao, LIN Chengqing|
-|03|  CHEN Yu, ZHU Huatao     |
-|04|  LI Haitian, HUANG Cunxin|
-|05|  JIANG Zao, LIN Chengqing|
-|06|  CHEN Yu, ZHU Huatao     |
-|07|  LI Haitian, HUANG Cunxin|
-|08|  JIANG Zao, LIN Chengqing|
-|09|  CHEN Yu, ZHU Huatao     |
-|10|  LI Haitian, HUANG Cunxin|
-|11|  JIANG Zao, LIN Chengqing|
-|12|  CHEN Yu, ZHU Huatao     |
-|13|  LI Haitian, HUANG Cunxin|
-|14|  JIANG Zao, LIN Chengqing|
-|15|  CHEN Yu, ZHU Huatao     |
-|16|  LI Haitian, HUANG Cunxin|
-|17|  JIANG Zao, LIN Chengqing|
-|18|  CHEN Yu, ZHU Huatao     |
+| Week number | Speakers        |
+|-------------|-----------------|
+| 01 | LI Haitian, HUANG Cunxin |
+| 02 | JIANG Zao, LIN Chengqing |
+| 03 | CHEN Yu, ZHU Huatao      |
+| 04 | LI Haitian, HUANG Cunxin |
+| 05 | JIANG Zao, LIN Chengqing |
+| 06 | CHEN Yu, ZHU Huatao      |
+| 07 | LI Haitian, HUANG Cunxin |
+| 08 | JIANG Zao, LIN Chengqing |
+| 09 | CHEN Yu, ZHU Huatao      |
+| 10 | LI Haitian, HUANG Cunxin |
+| 11 | JIANG Zao, LIN Chengqing |
+| 12 | CHEN Yu, ZHU Huatao      |
+| 13 | LI Haitian, HUANG Cunxin |
+| 14 | JIANG Zao, LIN Chengqing |
+| 15 | CHEN Yu, ZHU Huatao      |
+| 16 | LI Haitian, HUANG Cunxin |
+| 17 | JIANG Zao, LIN Chengqing |
+| 18 | CHEN Yu, ZHU Huatao      |
