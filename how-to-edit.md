@@ -1,6 +1,6 @@
 # How to edit
 
-1. Clone this repository using `git@github.com:equipez/equipez.github.io.git`.
+1. Clone this repository using `git clone git@github.com:equipez/equipez.github.io.git`.
 2. Create or edit Markdown files within the repository.
 3. Commit and push your changes.
 
