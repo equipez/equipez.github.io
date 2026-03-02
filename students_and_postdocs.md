@@ -1,6 +1,6 @@
 # Students and Postdocs
 ## Students
-- [Tom](https://www.linkedin.com/in/tom-ragonneau/en?originalSubdomain=fr) (PhD student, 2019-2022)
+- [Tom M. Ragonneau](https://www.linkedin.com/in/tom-ragonneau/) (PhD student, 2019-2022)
 - [Haitian LI](https://lht97.github.io/) (PhD student, 2021-now)
 - [Cunxin Huang](https://opthuang.github.io/) (PhD student, 2022-now)
 - [Zao Jiang](https://github.com/Gradvu) (PhD student, 2024-now)
