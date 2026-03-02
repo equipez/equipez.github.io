@@ -4,6 +4,6 @@
 - [Haitian LI](https://lht97.github.io/) (PhD student, 2021-now)
 - [Cunxin Huang](https://opthuang.github.io/) (PhD student, 2022-now)
 - [Zao Jiang](https://github.com/Gradvu) (PhD student, 2024-now)
-- Chengqing Lin (Master student, 2022-now)
+- Chengqing Lin (Master student, 2025-now)
 - [Yu Chen](https://chenyu76.github.io/) (Master student, 2026-now)
 - Huatao Zhao (Master student, 2026-now)
