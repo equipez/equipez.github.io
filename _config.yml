@@ -6,6 +6,7 @@
 # please delete `/_includes/default.html`, otherwise there may be
 # formatting issues.
 theme: jekyll-theme-minimal
+logo: /favicon.png
 
 markdown: kramdown
 kramdown:
