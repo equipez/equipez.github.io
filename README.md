@@ -4,7 +4,7 @@ Welcome to L'Équipe Z, the research group of [Professor ZHANG Zaikun](https://w
 
 ## Research interests
 
-- Theory, algorithms, and software of [mathematical optimization](https://en.wikipedia.org/wiki/Mathematical_optimization), especially
+- Theory, algorithms, and [software](/software) of [mathematical optimization](https://en.wikipedia.org/wiki/Mathematical_optimization), especially
   - [derivative-free](https://en.wikipedia.org/wiki/Derivative-free_optimization) (zeroth-order) methods
   - randomized methods
   - large-scale problems
