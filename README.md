@@ -23,5 +23,4 @@ Welcome to L'Équipe Z, the research group of [Professor ZHANG Zaikun](https://w
 
 ### Former Students and Postdocs
 
-- [Tom M. Ragonneau](https://www.linkedin.com/in/tom-ragonneau/) (PhD student, 2019-2022)
-
+- [Tom M. Ragonneau](https://www.linkedin.com/in/tom-ragonneau/) (PhD, 2019-2022)
