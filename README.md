@@ -14,7 +14,7 @@ Welcome to L'Équipe Z, the research group of [Professor ZHANG Zaikun](https://w
 
 ### Current Students
 
-- [Haitian LI](https://lht97.github.io/) (PhD student, 2021-now)
+- [Haitian Li](https://lht97.github.io/) (PhD student, 2021-now)
 - [Cunxin Huang](https://opthuang.github.io/) (PhD student, 2022-now)
 - [Zao Jiang](https://github.com/Gradvu) (PhD student, 2024-now)
 - [Xiangrong Ma](https://github.com/MaXiangrongmath) (PhD student, 2025-now)
