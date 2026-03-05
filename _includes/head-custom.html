@@ -1,5 +1,10 @@
 <link rel="icon" type="image/png" href="{{ '/favicon.png' | relative_url }}" />
 
+{% comment %}
+  Check if the page contains math delimiters. If it does, include MathJax.
+  If not, skip loading MathJax to improve page load times.
+  This is a simple check and may not cover all cases, but it should work for most.
+{% endcomment %}
 {% assign has_math = false %} {% if page.content contains '$' or page.content
 contains '\(' or page.content contains '\[' or page.content contains '\begin{'
 %} {% assign has_math = true %} {% endif %} {% if has_math %}
