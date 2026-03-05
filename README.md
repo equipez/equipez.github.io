@@ -1,4 +1,4 @@
-Welcome to L'Équipe Z, the research group of [Professor ZHANG Zaikun](https://www.zhangzk.net/).
+Welcome to L'Équipe Z, the research group of [Professor Zaikun Zhang](https://www.zhangzk.net/).
 
 ---
 
