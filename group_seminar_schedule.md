@@ -45,12 +45,13 @@ The detailed schedule is as follows. It may be adjusted based on the actual situ
 | 07          | April 15 | LI Haitian, HUANG Cunxin |
 | 08          | April 22 | JIANG Zao, LIN Chengqing |
 | 09          | April 29 | CHEN Yu, ZHU Huatao      |
-| 10          | May 6    | LI Haitian, HUANG Cunxin |
-| 11          | May 20   | JIANG Zao, LIN Chengqing |
-| 12          | May 27   | CHEN Yu, ZHU Huatao      |
-| 13          | June 3   | LI Haitian, HUANG Cunxin |
-| 14          | June 10  | JIANG Zao, LIN Chengqing |
-| 15          | June 17  | CHEN Yu, ZHU Huatao      |
-| 16          | June 24  | LI Haitian, HUANG Cunxin |
-| 17          | July 1   | JIANG Zao, LIN Chengqing |
-| 18          | July 8   | CHEN Yu, ZHU Huatao      |
+| 10          | May 6    | Cancelled                |
+| 11          | May 20   | LI Haitian, HUANG Cunxin |
+| 12          | May 27   | JIANG Zao, LIN Chengqing |
+| 13          | June 3   | CHEN Yu, ZHU Huatao      |
+| 14          | June 10  | LI Haitian, HUANG Cunxin |
+| 15          | June 17  | JIANG Zao, LIN Chengqing |
+| 16          | June 24  | CHEN Yu, ZHU Huatao      |
+| 17          | July 1   | LI Haitian, HUANG Cunxin |
+| 18          | July 8   | JIANG Zao, LIN Chengqing |
+| 19          | July 15  | CHEN Yu, ZHU Huatao      |
