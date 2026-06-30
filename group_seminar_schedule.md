@@ -52,7 +52,5 @@ The detailed schedule is as follows. It may be adjusted based on the actual situ
 | 14          | June 3   | Cancelled                |
 | 15          | June 10  | LI Haitian, HUANG Cunxin |
 | 16          | June 17  | JIANG Zao, LIN Chengqing |
-| 17          | June 24  | CHEN Yu, ZHU Huatao      |
-| 18          | July 1   | LI Haitian, HUANG Cunxin |
-| 19          | July 8   | JIANG Zao, LIN Chengqing |
-| 20          | July 15  | CHEN Yu, ZHU Huatao      |
+| 17          | June 24  | Cancelled                |
+| 18          | July 1   | CHEN Yu, ZHU Huatao      |
