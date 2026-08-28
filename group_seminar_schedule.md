@@ -34,23 +34,10 @@ The seminar will rotate among group members in the following order, starting fro
 
 The detailed schedule is as follows. It may be adjusted based on the actual situation.
 
-| Week number | Date     | Speakers                 |
-| ----------- | -------- | ------------------------ |
-| 01          | March 4  | LI Haitian, HUANG Cunxin |
-| 02          | March 11 | JIANG Zao, LIN Chengqing |
-| 03          | March 18 | CHEN Yu, ZHU Huatao      |
-| 04          | March 25 | LI Haitian, HUANG Cunxin |
-| 05          | April 1  | JIANG Zao, LIN Chengqing |
-| 06          | April 8  | CHEN Yu, ZHU Huatao      |
-| 07          | April 15 | LI Haitian, HUANG Cunxin |
-| 08          | April 22 | JIANG Zao, LIN Chengqing |
-| 09          | April 29 | CHEN Yu, ZHU Huatao      |
-| 10          | May 6    | Cancelled                |
-| 11          | May 13   | LI Haitian, HUANG Cunxin |
-| 12          | May 20   | JIANG Zao, LIN Chengqing |
-| 13          | May 27   | CHEN Yu, ZHU Huatao      |
-| 14          | June 3   | Cancelled                |
-| 15          | June 10  | LI Haitian, HUANG Cunxin |
-| 16          | June 17  | JIANG Zao, LIN Chengqing |
-| 17          | June 24  | Cancelled                |
-| 18          | July 1   | CHEN Yu, ZHU Huatao      |
+| Week number | Date         | Speakers                 |
+| ----------- | ------------ | ------------------------ |
+| -1          | August 26    | LI Haitian, HUANG Cunxin |
+| 0           | September 3  | JIANG Zao, LIN Chengqing |
+| 1           | September 8  | CHEN Yu, ZHU Huatao      |
+| 2           | September 15 | LI Haitian, HUANG Cunxin |
+| 3           | September 22 | JIANG Zao, LIN Chengqing |
