@@ -5,7 +5,7 @@
 - Venue: Room 403, Math Building
 - Tencent Meeting: 564 182 446
 - Zoom Meeting (if needed): 430 704 0191
-- Coordinator: JIANG Zao
+- Coordinator: ZHU Huatao and JIANG Zao
 
 ## Rules:
 
@@ -41,3 +41,18 @@ The detailed schedule is as follows. It may be adjusted based on the actual situ
 | 1           | September 8  | CHEN Yu, ZHU Huatao      |
 | 2           | September 15 | LI Haitian, HUANG Cunxin |
 | 3           | September 22 | JIANG Zao, LIN Chengqing |
+| 4           | September 29 | CHEN Yu, ZHU Huatao      |
+| 5           | October 6    | LI Haitian, HUANG Cunxin |
+| 6           | October 13   | JIANG Zao, LIN Chengqing |
+| 7           | October 20   | CHEN Yu, ZHU Huatao      |
+| 8           | October 27   | LI Haitian, HUANG Cunxin |
+| 9           | November 3   | JIANG Zao, LIN Chengqing |
+| 10          | November 10  | CHEN Yu, ZHU Huatao      |
+| 11          | November 17  | LI Haitian, HUANG Cunxin |
+| 12          | November 24  | JIANG Zao, LIN Chengqing |
+| 13          | December 1   | CHEN Yu, ZHU Huatao      |
+| 14          | December 8   | LI Haitian, HUANG Cunxin |
+| 15          | December 15  | JIANG Zao, LIN Chengqing |
+| 16          | December 22  | CHEN Yu, ZHU Huatao      |
+| 17          | December 29  | LI Haitian, HUANG Cunxin |
+| 18          | January 5    | JIANG Zao, LIN Chengqing |
