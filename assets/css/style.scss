@@ -3,6 +3,8 @@
 
 @import "{{ site.theme }}";
 
+// This file overwrite style of Minimal theme.
+//
 // Give the main content more room on wide screens while preserving the
 // Minimal theme's existing tablet and mobile layouts.
 @media print, screen and (min-width: 1140px) {

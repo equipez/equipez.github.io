@@ -1,10 +1,16 @@
+# The config of the website.
+#
 # Use minimal theme. See
 # https://docs.github.com/en/pages/setting-up-a-github-pages-site-with-jekyll/adding-a-theme-to-your-github-pages-site-using-jekyll
-# for more information
+# for more information.
 # NOTE: The currently used minimal theme has been modified via
-# `/_includes/default.html`. If you need to use a different theme,
-# please delete `/_includes/default.html`, otherwise there may be
-# formatting issues.
+# | Files                        | Usage                   |
+# |------------------------------|-------------------------|
+# | /_includes/default.html      | Custom sidebar          |
+# | /_includes/head-custom.html  | LaTeX equation support  |
+# | /assets/css/style.scss       | Custom styles           |
+# If you need to use a different theme,
+# please delete those files, otherwise there may be formatting issues.
 theme: jekyll-theme-minimal
 logo: /sidebar_icon.svg
 
@@ -15,3 +21,4 @@ kramdown:
 # Private local change specifications must never be included in the site build.
 exclude:
   - revision_history/
+  - vendor/
