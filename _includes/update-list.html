@@ -1,0 +1,8 @@
+<ul class="updates-list">
+  {% for update in site.data.updates limit: include.limit %}
+    <li>
+      <strong>{{ update.date | date: "%b %-d, %Y" }} · {{ update.type }}</strong>
+      — <a href="{{ update.url }}">“{{ update.title }}”</a>{% if update.authors %}, by {{ update.authors }}{% endif %}.
+    </li>
+  {% endfor %}
+</ul>

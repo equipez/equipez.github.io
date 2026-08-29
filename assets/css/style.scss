@@ -1,0 +1,72 @@
+---
+---
+
+@import "{{ site.theme }}";
+
+// Give the main content more room on wide screens while preserving the
+// Minimal theme's existing tablet and mobile layouts.
+@media print, screen and (min-width: 1140px) {
+  .wrapper {
+    width: 1040px;
+  }
+
+  section {
+    width: 680px;
+  }
+}
+
+// Software needs more horizontal room than prose-heavy pages. The page opts
+// into this layout through `wide: true` in its front matter.
+@media screen and (min-width: 1280px) {
+  .wrapper.wrapper-wide {
+    width: 1180px;
+  }
+
+  .wrapper.wrapper-wide section {
+    width: 820px;
+  }
+}
+
+@media screen and (min-width: 721px) {
+  .software-table th:nth-child(1),
+  .software-table td:nth-child(1) {
+    width: 20%;
+  }
+
+  .software-table th:nth-child(2),
+  .software-table td:nth-child(2) {
+    width: 80%;
+  }
+}
+
+// Stack each project into a compact card-like row on narrow screens instead
+// of squeezing the Software and Description columns side by side.
+@media screen and (max-width: 720px) {
+  .software-table,
+  .software-table tbody,
+  .software-table tr,
+  .software-table td {
+    box-sizing: border-box;
+    display: block;
+    width: 100%;
+  }
+
+  .software-table thead {
+    display: none;
+  }
+
+  .software-table tr {
+    border-bottom: 1px solid #e5e5e5;
+    padding: 12px 0;
+  }
+
+  .software-table td {
+    border: 0;
+    padding: 3px 0;
+  }
+
+  .software-table td:first-child {
+    font-size: 1.05em;
+    font-weight: 600;
+  }
+}

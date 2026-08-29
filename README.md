@@ -2,6 +2,14 @@ Welcome to L'Équipe Z, the research group of [Professor ZHANG Zaikun](https://w
 
 ---
 
+## Recent Updates
+
+{% include update-list.html limit=6 %}
+
+{% if site.data.updates.size > 6 %}
+[View all updates →](/updates)
+{% endif %}
+
 ## Research interests
 
 - Theory, algorithms, and [software](/software) of [mathematical optimization](https://en.wikipedia.org/wiki/Mathematical_optimization), especially

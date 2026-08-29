@@ -11,3 +11,7 @@ logo: /sidebar_icon.svg
 markdown: kramdown
 kramdown:
   math_engine: mathjax
+
+# Private local change specifications must never be included in the site build.
+exclude:
+  - revision_history/

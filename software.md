@@ -1,9 +1,16 @@
+---
+wide: true
+software_page: true
+---
+
 # Software
 
-| Software                                              | QR Code                                                                              | Description               |
-| ----------------------------------------------------- | ------------------------------------------------------------------------------------ | ------------------------- |
-| [SPRIMA](https://www.sprima.net)                      | [![SPRIMA](/figures/qrcode_of_sprima.svg)](https://www.sprima.net)                   | Dates back to 2012        |
-| [PRIMA](https://www.libprima.net)                     | [![PRIMA](/figures/qrcode_of_prima.svg)](https://www.libprima.net)                   | Highlight of SciPy 1.16.0 |
-| [COBYQA](https://www.cobyqa.com)                      | [![COBYQA](/figures/qrcode_of_cobyqa.svg)](https://www.cobyqa.com)                   | Highlight of SciPy 1.14.0 |
-| [BDS](https://github.com/blockwise-direct-search/bds) | [![BDS](/figures/qrcode_of_bds.svg)](https://github.com/blockwise-direct-search/bds) | Blockwise direct search   |
-| [OptiProfiler](https://www.optprof.com)               | [![OptiProfiler](/figures/qrcode_of_optiprofiler.svg)](https://www.optprof.com)      | Testing platform          |
+| Software                                                               | Description                                                                                                                                                             |
+| ---------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| [SPRIMA](https://github.com/newuoas/newuoas)                            | A MATLAB implementation of the NEWUOAs derivative-free optimization method.                                                                                            |
+| [PRIMA](https://github.com/libprima/prima)                              | A modern reference implementation of Powell's derivative-free optimization methods for general nonlinear problems, available in Fortran, C, Python, MATLAB, and Julia. |
+| [COBYQA](https://github.com/cobyqa/cobyqa)                              | A derivative-free trust-region SQP solver for unconstrained and constrained nonlinear optimization using quadratic models built from function values.                  |
+| [BDS](https://github.com/blockwise-direct-search/bds)                   | A MATLAB package for unconstrained derivative-free optimization based on blockwise direct-search methods.                                                               |
+| [OptiProfiler](https://github.com/optiprofiler/optiprofiler)            | A Python and MATLAB platform for reproducible solver benchmarking with curated problem libraries and publication-ready performance profiles.                            |
+| [OptiProfiler Evolve](https://github.com/optiprofiler/optiprofiler-evolve) | A Python framework for benchmark-driven evolution of derivative-free optimization solvers within a fixed OptiProfiler experiment.                                      |
+{: .software-table }
