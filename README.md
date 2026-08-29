@@ -33,3 +33,8 @@ Welcome to L'Équipe Z, the research group of [Professor ZHANG Zaikun](https://w
 ### Former Students and Postdocs
 
 - [Tom M. Ragonneau](https://www.linkedin.com/in/tom-ragonneau/) (PhD, 2019-2022)
+
+## Recruitment
+
+L'Équipe Z welcomes motivated students, postdoctoral researchers, and software engineers interested in mathematical optimization.
+See Professor ZHANG's recruitment [announcement](https://www.zhangzk.net/docs/recruitment.txt) for more information.
