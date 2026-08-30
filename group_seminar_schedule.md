@@ -1,6 +1,6 @@
 # Seminar Schedule
 
-- Semester: Spring 2026
+- Semester: Autumn 2026
 - Time: 13:00--17:00, Tuesday
 - Venue: Room 403, Math Building
 - Tencent Meeting: 564 182 446
