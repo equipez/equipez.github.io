@@ -6,7 +6,7 @@
 # NOTE: The currently used minimal theme has been modified via
 # | Files                        | Usage                   |
 # |------------------------------|-------------------------|
-# | /_includes/default.html      | Custom sidebar          |
+# | /_layouts/default.html       | Custom sidebar          |
 # | /_includes/head-custom.html  | LaTeX equation support  |
 # | /assets/css/style.scss       | Custom styles           |
 # If you need to use a different theme,
