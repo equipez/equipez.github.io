@@ -30,9 +30,11 @@ See https://shopify.github.io/liquid/ for more on Liquid templating language.
         <p>{{ site.description | default: site.github.project_tagline }}</p>
         {% endcomment %}
 
-        <p class="view"><a href="{{ site.github.owner_url }}">View Our GitHub Profile</a></p>
+        <p class="view"><a href="{{ site.github.owner_url }}">GitHub</a></p>
         
-        <p class="view"><a href="/group_seminar_schedule">Group Seminar Schedule</a></p>
+        <p class="view"><a href="/group_seminar_schedule">Seminar</a></p>
+
+        <p class="view"><a href="/updates">Updates</a></p>
 
         {% if site.show_downloads %}
         <ul class="downloads">
@@ -57,7 +59,12 @@ See https://shopify.github.io/liquid/ for more on Liquid templating language.
         Original footer line:
         <p><small>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></small></p>
         {% endcomment %}
-        <p><small>Powered by <a href="https://jekyllrb.com/">Jekyll</a> with <a href="https://github.com/orderedlist/minimal">minimal</a> theme. <br> Hosted by <a href="https://pages.github.com/">GitHub Pages</a>.</small></p>
+        <p>
+        <small>Powered by <a href="https://jekyllrb.com/">Jekyll</a> with <a href="https://github.com/orderedlist/minimal">minimal</a> theme. 
+        {% comment %}
+          <br> Hosted on <a href="https://pages.github.com/">GitHub Pages</a>.</small>
+        {% endcomment %}
+        </p>
       </footer>
     </div>
     <script src="{{ "/assets/js/scale.fix.js" | relative_url }}"></script>
