@@ -1,3 +1,5 @@
+This it the website source of [L’Équipe Z](https://equipez.github.io)
+
 # How to edit
 
 1. Clone this repository using `git clone git@github.com:equipez/equipez.github.io.git`.
@@ -5,7 +7,7 @@
 3. Commit and push your changes.
 
 - Add links to the homepage using relative paths without the `.md` extension.
-  - Example: `[How to Edit](./how-to-edit)`.
+  - Example: `[README](./README)`.
 - Refer to the [GitHub Pages documentation](https://docs.github.com/en/pages)
   for more advanced configuration.
 
@@ -15,10 +17,7 @@ This site uses GitHub Pages and Jekyll. VS Code extensions such as Live Server d
 Jekyll layouts, Liquid templates, or the GitHub Pages theme, so use the Jekyll development server
 for an accurate preview.
 
-1. Install Ruby 3.3.4. The repository includes a `.ruby-version` file for Ruby version managers
-   such as `rbenv`, `chruby`, and `asdf`. Follow the version manager's shell-initialization step,
-   open a new terminal, and confirm that `ruby --version` reports 3.3.4. On Windows, RubyInstaller
-   with Devkit can be used instead.
+1. Install Ruby.
 2. Install Bundler if it is not already available:
 
    ```shell
