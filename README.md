@@ -1,4 +1,4 @@
-This it the website source of [L’Équipe Z](https://equipez.github.io)
+This is the website of [L’Équipe Z](https://equipez.github.io).
 
 # How to edit
 
