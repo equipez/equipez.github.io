@@ -10,7 +10,7 @@
 ## Rules:
 
 1. Each speaker has one hour by default (presentation + Q&A). If more time is needed, the speakers
-   should compromise among themselves in advance. The seminar will not extend beyond 13:00.
+   should compromise among themselves in advance. The seminar will not extend beyond 18:00.
 2. Prepare well-structured slides with solid supporting materials.
 3. The presentation must begin with a review of the TODO list from the last presentation. It should
    contain the progress of each item and plans for unfinished ones.
@@ -26,7 +26,7 @@
 
 ## Schedule:
 
-The seminar will rotate among group members in the following order, starting from March.
+The seminar will rotate among group members in the following order.
 
 - LI Haitian, HUANG Cunxin
 - JIANG Zao, LIN Chengqing
