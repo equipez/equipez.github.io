@@ -44,10 +44,6 @@ See https://shopify.github.io/liquid/ for more on Liquid templating language.
         <nav class="sidebar-navigation" aria-label="Primary navigation">
           {% for item in site.data.navigation %}
             {% assign navigation_url = item.url %}
-            {% unless item.url contains "://" %}
-              {%assign navigation_url = item.url | relative_url %}
-            {% endunless %}
-
             {% assign item_path = item.url | replace: "/index.html", "/" | remove: ".html" %}
             {% assign is_current = false %}
             {% if current_path == item_path %}

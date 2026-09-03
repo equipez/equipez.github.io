@@ -10,13 +10,13 @@
     replace() so the obsolete URL is not retained in the browser's Back stack;
     the refresh element provides a fallback when JavaScript is unavailable.
     -->
-    <link rel="canonical" href="{{ "/seminar" | absolute_url }}">
-    <meta http-equiv="refresh" content="0; url={{ "/seminar" | relative_url }}">
+    <link rel="canonical" href="/seminar">
+    <meta http-equiv="refresh" content="0; url=/seminar">
     <script>
-      window.location.replace({{ "/seminar" | relative_url | jsonify }});
+      window.location.replace("/seminar");
     </script>
   </head>
   <body>
-    <p>This page has moved to <a href="{{ "/seminar" | relative_url }}">the seminar schedule</a>.</p>
+    <p>This page has moved to <a href="/seminar">the seminar schedule</a>.</p>
   </body>
 </html>
