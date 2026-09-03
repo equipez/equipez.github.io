@@ -1,0 +1,22 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="robots" content="noindex">
+    <title>Seminar page moved</title>
+
+    <!--
+    Keep old bookmarks working after the seminar page moved. JavaScript uses
+    replace() so the obsolete URL is not retained in the browser's Back stack;
+    the refresh element provides a fallback when JavaScript is unavailable.
+    -->
+    <link rel="canonical" href="{{ "/seminar" | absolute_url }}">
+    <meta http-equiv="refresh" content="0; url={{ "/seminar" | relative_url }}">
+    <script>
+      window.location.replace({{ "/seminar" | relative_url | jsonify }});
+    </script>
+  </head>
+  <body>
+    <p>This page has moved to <a href="{{ "/seminar" | relative_url }}">the seminar schedule</a>.</p>
+  </body>
+</html>

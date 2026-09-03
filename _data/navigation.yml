@@ -10,7 +10,7 @@
   url: /members
 
 - label: Seminar
-  url: /group_seminar_schedule
+  url: /seminar
 
 - label: Updates
   url: /updates
