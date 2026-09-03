@@ -1,0 +1,19 @@
+# Primary sidebar navigation. Keep labels, destinations, and ordering here so
+# the layout can render the menu and determine the current item from one source.
+- label: Homepage
+  url: /
+
+- label: Software
+  url: /software
+
+- label: Members
+  url: /members
+
+- label: Seminar
+  url: /group_seminar_schedule
+
+- label: Updates
+  url: /updates
+
+- label: GitHub
+  url: https://github.com/equipez

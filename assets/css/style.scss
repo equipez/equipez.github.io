@@ -4,6 +4,22 @@
 @import "{{ site.theme }}";
 
 // This file overwrite style of Minimal theme.
+
+// Reserve the border space for every navigation link so selecting the current
+// page never shifts the text. `currentColor` keeps the marker identical to the
+// link text color, including theme or browser-driven color changes. The
+// aria-current attribute also exposes the same state to assistive technology.
+.sidebar-navigation .view a {
+  border-left: 3px solid transparent;
+  display: inline-block;
+  padding-left: 9px;
+}
+
+.sidebar-navigation .view a[aria-current="page"] {
+  border-left-color: currentColor;
+  font-weight: 700;
+}
+
 //
 // Give the main content more room on wide screens while preserving the
 // Minimal theme's existing tablet and mobile layouts.

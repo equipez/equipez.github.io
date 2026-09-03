@@ -32,11 +32,33 @@ See https://shopify.github.io/liquid/ for more on Liquid templating language.
         <p>{{ site.description | default: site.github.project_tagline }}</p>
         {% endcomment %}
 
-        <p class="view"><a href="{{ "/" | absolute_url }}">Homepage</a></p>
-        <p class="view"><a href="/software">Software</a></p>
-        <p class="view"><a href="{{ site.github.owner_url }}">GitHub</a></p>
-        <p class="view"><a href="/group_seminar_schedule">Seminar</a></p>
-        <p class="view"><a href="/updates">Updates</a></p>
+        {% comment %}
+        Navigation entries live in _data/navigation.yml so their labels, URLs,
+        and order have a single source of truth. Jekyll reports ordinary pages
+        with a .html suffix even though the public links use extensionless URLs;
+        normalize that suffix before comparing the current page with each item.
+        Absolute URLs pass through unchanged; relative site URLs receive the
+        configured base URL. An external URL naturally cannot match page.url.
+        {% endcomment %}
+        {% assign current_path = page.url | replace: "/index.html", "/" | remove: ".html" %}
+        <nav class="sidebar-navigation" aria-label="Primary navigation">
+          {% for item in site.data.navigation %}
+            {% assign navigation_url = item.url %}
+            {% unless item.url contains "://" %}
+              {%assign navigation_url = item.url | relative_url %}
+            {% endunless %}
+
+            {% assign item_path = item.url | replace: "/index.html", "/" | remove: ".html" %}
+            {% assign is_current = false %}
+            {% if current_path == item_path %}
+              {% assign is_current = true %}
+            {% endif %}
+
+            <p class="view">
+              <a href="{{ navigation_url }}"{% if is_current %} aria-current="page"{% endif %}>{{ item.label }}</a>
+            </p>
+          {% endfor %}
+        </nav>
 
         {% if site.show_downloads %}
         <ul class="downloads">
