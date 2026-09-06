@@ -2,7 +2,7 @@
 
 - Semester: Autumn 2026
 - Time: 13:00--17:00, Tuesday
-- Venue: Room 403, Math Building
+- Venue: Room 721, Math Building
 - Coordinator: ZHU Huatao and JIANG Zao
 
 ## Rules:
