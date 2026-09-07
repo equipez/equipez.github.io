@@ -1,6 +1,5 @@
 ---
 wide: true
-software_page: true
 ---
 
 # Software
