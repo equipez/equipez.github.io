@@ -44,10 +44,10 @@ const state = {
   move : null,
   rejectFlash : null,
   fade : null,
-  H : null,       // current inverse-Hessian approx (2x2), for the eigen axes
+  H : null, // current inverse-Hessian approx (2x2), for the eigen axes
   crossAnim : null,
-  grad : null,    // gradient at the current point (for the -gradient arrow)
-  gRef : 1,       // |gradient(x0)| of the current problem
+  grad : null, // gradient at the current point (for the -gradient arrow)
+  gRef : 1,    // |gradient(x0)| of the current problem
 };
 
 /* ---- helpers ------------------------------------------------------------ */
@@ -106,10 +106,15 @@ function dfpLoop(land, x0, cfg) {
 
   for (let k = 0; k < maxIter; k++) {
     const gn = Math.hypot(g[0], g[1]);
-    if (gn <= Math.max(gtolRel * g0n, 1e-8)) { reason = 'gradient'; break; }
-    const H0 = [ [ H[0][0], H[0][1] ], [ H[1][0], H[1][1] ] ]; // before the step
+    if (gn <= Math.max(gtolRel * g0n, 1e-8)) {
+      reason = 'gradient';
+      break;
+    }
+    const H0 =
+        [ [ H[0][0], H[0][1] ], [ H[1][0], H[1][1] ] ]; // before the step
 
-    // d = -H g ; if it is not a descent direction, restart with steepest descent
+    // d = -H g ; if it is not a descent direction, restart with steepest
+    // descent
     let d = [
       -(H[0][0] * g[0] + H[0][1] * g[1]),
       -(H[1][0] * g[0] + H[1][1] * g[1]),
@@ -127,13 +132,23 @@ function dfpLoop(land, x0, cfg) {
     for (let ls = 0; ls < 60; ls++) {
       const nx = clamp01(x.x + alpha * d[0]);
       const ny = clamp01(x.y + alpha * d[1]);
-      if (land.f(nx, ny) <= fx0 + 1e-4 * alpha * gd) { found = true; break; }
+      if (land.f(nx, ny) <= fx0 + 1e-4 * alpha * gd) {
+        found = true;
+        break;
+      }
       alpha *= 0.5;
-      if (alpha < 1e-10) break;
+      if (alpha < 1e-10)
+        break;
     }
-    if (!found) { reason = 'stuck'; break; } // no feasible decrease found
+    if (!found) {
+      reason = 'stuck';
+      break;
+    } // no feasible decrease found
 
-    const xnext = {x : clamp01(x.x + alpha * d[0]), y : clamp01(x.y + alpha * d[1])};
+    const xnext = {
+      x : clamp01(x.x + alpha * d[0]),
+      y : clamp01(x.y + alpha * d[1])
+    };
     const fnext = land.f(xnext.x, xnext.y);
     const gh2 = Common.numGH(land, xnext);
     const g2 = gh2.g;
@@ -143,7 +158,8 @@ function dfpLoop(land, x0, cfg) {
     const y = [ g2[0] - g[0], g2[1] - g[1] ];
     const sy = s[0] * y[0] + s[1] * y[1];
     if (sy > 1e-12) {
-      const Hy = [ H[0][0] * y[0] + H[0][1] * y[1], H[1][0] * y[0] + H[1][1] * y[1] ];
+      const Hy =
+          [ H[0][0] * y[0] + H[0][1] * y[1], H[1][0] * y[0] + H[1][1] * y[1] ];
       const yHy = y[0] * Hy[0] + y[1] * Hy[1];
       if (yHy > 1e-12) {
         const Hn = [ [ 0, 0 ], [ 0, 0 ] ];
@@ -154,7 +170,8 @@ function dfpLoop(land, x0, cfg) {
       }
     }
 
-    const H1 = [ [ H[0][0], H[0][1] ], [ H[1][0], H[1][1] ] ]; // after the update
+    const H1 =
+        [ [ H[0][0], H[0][1] ], [ H[1][0], H[1][1] ] ]; // after the update
     history.push({
       k : k,
       x : {x : x.x, y : x.y},
@@ -180,7 +197,10 @@ function draw(now) {
   let cur = state.x;
   if (state.move) {
     const t = easeOut(animP(state.move, now));
-    cur = {x : lerp(state.move.x0, state.move.x1, t), y : lerp(state.move.y0, state.move.y1, t)};
+    cur = {
+      x : lerp(state.move.x0, state.move.x1, t),
+      y : lerp(state.move.y0, state.move.y1, t)
+    };
   }
   const [cx0, cy0] = px(cur.x, cur.y);
 
@@ -200,7 +220,10 @@ function draw(now) {
     ctx.beginPath();
     for (let i = 0; i < state.trail.length; i++) {
       const [tx, ty] = px(state.trail[i].x, state.trail[i].y);
-      if (i === 0) ctx.moveTo(tx, ty); else ctx.lineTo(tx, ty);
+      if (i === 0)
+        ctx.moveTo(tx, ty);
+      else
+        ctx.lineTo(tx, ty);
     }
     ctx.lineWidth = 1.8;
     ctx.strokeStyle = 'rgb(10,10,12)';
@@ -215,10 +238,14 @@ function draw(now) {
       const p = animP(state.crossAnim, now);
       const t = p < 1 ? p : 1;
       H = [
-        [ lerp(state.crossAnim.H0[0][0], state.crossAnim.H1[0][0], t),
-          lerp(state.crossAnim.H0[0][1], state.crossAnim.H1[0][1], t) ],
-        [ lerp(state.crossAnim.H0[1][0], state.crossAnim.H1[1][0], t),
-          lerp(state.crossAnim.H0[1][1], state.crossAnim.H1[1][1], t) ],
+        [
+          lerp(state.crossAnim.H0[0][0], state.crossAnim.H1[0][0], t),
+          lerp(state.crossAnim.H0[0][1], state.crossAnim.H1[0][1], t)
+        ],
+        [
+          lerp(state.crossAnim.H0[1][0], state.crossAnim.H1[1][0], t),
+          lerp(state.crossAnim.H0[1][1], state.crossAnim.H1[1][1], t)
+        ],
       ];
     }
     const ax = eig2(H[0][0], H[0][1], H[1][1]);
@@ -227,8 +254,10 @@ function draw(now) {
       if (!(ax[e].l > 1e-12))
         continue;
       const half = CROSS_LEN * Math.sqrt(ax[e].l);
-      const [px0, py0] = px(state.x.x - half * ax[e].v[0], state.x.y - half * ax[e].v[1]);
-      const [px1, py1] = px(state.x.x + half * ax[e].v[0], state.x.y + half * ax[e].v[1]);
+      const [px0, py0] =
+          px(state.x.x - half * ax[e].v[0], state.x.y - half * ax[e].v[1]);
+      const [px1, py1] =
+          px(state.x.x + half * ax[e].v[0], state.x.y + half * ax[e].v[1]);
       ctx.lineWidth = 3.4;
       ctx.strokeStyle = 'rgba(255,255,255,0.6)';
       ctx.beginPath();
@@ -283,7 +312,6 @@ function draw(now) {
     }
   }
 
-
   // quasi-Newton step: arrow + ring to the trial point
   if (state.showCand && state.cand) {
     const [tx1, ty1] = px(state.cand.x, state.cand.y);
@@ -328,7 +356,8 @@ function draw(now) {
   ctx.fill();
 }
 
-/* ---- sizing --------------------------------------------------------------- */
+/* ---- sizing ---------------------------------------------------------------
+ */
 let resizeTimer = null;
 function scheduleRedraw() { // heavy re-render, debounced while resizing
   if (resizeTimer)
@@ -358,8 +387,12 @@ function resize() {
     scheduleRedraw();
 }
 
-/* ---- playback -------------------------------------------------------------- */
-const SETTINGS = {gtolRel : 5e-4, maxIter : 80};
+/* ---- playback --------------------------------------------------------------
+ */
+const SETTINGS = {
+  gtolRel : 5e-4,
+  maxIter : 80
+};
 const T = {
   cand : 240,
   cross : 420,
@@ -388,8 +421,12 @@ async function playStep(s) {
   // 2) move the dot only; the cross stays anchored at x_k with H_k
   state.acceptInFlight = true;
   state.move = {
-    x0 : s.x.x, y0 : s.x.y, x1 : s.xnext.x, y1 : s.xnext.y,
-    t0 : performance.now(), dur : T.move,
+    x0 : s.x.x,
+    y0 : s.x.y,
+    x1 : s.xnext.x,
+    y1 : s.xnext.y,
+    t0 : performance.now(),
+    dur : T.move,
   };
   await sleep(T.move);
   state.move = null;
@@ -406,8 +443,10 @@ async function playStep(s) {
   // 3) after arrival, update the metric in place: morph cross to H_{k+1}
   if (s.H && s.Hnext) {
     state.crossAnim = {
-      H0 : s.H, H1 : s.Hnext,
-      t0 : performance.now(), dur : T.cross,
+      H0 : s.H,
+      H1 : s.Hnext,
+      t0 : performance.now(),
+      dur : T.cross,
     };
     await sleep(T.cross);
     state.crossAnim = null;
@@ -417,7 +456,8 @@ async function playStep(s) {
 }
 
 async function run() {
-  const rng = Common.mulberry32((Date.now() ^ (Math.random() * 0xffffffff)) >>> 0);
+  const rng =
+      Common.mulberry32((Date.now() ^ (Math.random() * 0xffffffff)) >>> 0);
   let x0 = {x : 0.2 + rng() * 0.6, y : 0.2 + rng() * 0.6};
   for (;;) {
     const land = Common.makeLandscape(rng);
@@ -429,7 +469,7 @@ async function run() {
       prevCtx.drawImage(heatCv, 0, 0, W, H);
     heatCv = Heatmap.render(land, W, H);
     state.land = land;
-    state.trail = [{x : x0.x, y : x0.y}];
+    state.trail = [ {x : x0.x, y : x0.y} ];
     state.x = {x : x0.x, y : x0.y};
     state.fx = land.f(x0.x, x0.y);
     state.H = [ [ 1, 0 ], [ 0, 1 ] ];
@@ -448,7 +488,8 @@ async function run() {
     state.fx = pol.fx;
     state.move = null;
     const ggPol = Common.numGH(land, pol.x).g;
-    state.grad = ggPol; // keep the -gradient arrow consistent with the polished point
+    state.grad =
+        ggPol; // keep the -gradient arrow consistent with the polished point
     state.trail.push({x : pol.x.x, y : pol.x.y});
     await sleep(T.beat);
     x0 = {x : clamp01(pol.x.x), y : clamp01(pol.x.y)};
