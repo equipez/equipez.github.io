@@ -105,16 +105,20 @@ function trLoop(land, x0, cfg) {
 
   for (var k = 0; k < maxIter; k++) {
     var gh = numGH(land, x);
-    var g = gh.g, hh = gh.h;
+    // Per-iteration bindings so each snapshot keeps its own local quadratic
+    // model; `var` here would make every stored model read the final
+    // iteration's gradient/Hessian (classic closure-in-loop bug).
+    const g = gh.g, hh = gh.h;
+    const fxIter = fx;
     var gradNorm = Math.hypot(g[0], g[1]);
     var sv = trSolve(g[0], g[1], hh[0], hh[1], hh[2], Delta);
     var predicted = -sv.val;
     var cand = {x : CL01(x.x + sv.s[0]), y : CL01(x.y + sv.s[1])};
     var effLen = Math.hypot(cand.x - x.x, cand.y - x.y);
-    function model(sx, sy) {
-      return fx + g[0] * sx + g[1] * sy +
+    const model = (sx, sy) => {
+      return fxIter + g[0] * sx + g[1] * sy +
              0.5 * (hh[0] * sx * sx + 2 * hh[1] * sx * sy + hh[2] * sy * sy);
-    }
+    };
     function snap(rho, accept, DN, fplus) {
       return {
         k : k,
