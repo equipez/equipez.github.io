@@ -20,25 +20,7 @@ Welcome to L'Équipe Z, the research group of [Professor ZHANG Zaikun](https://w
 
 
 <div style="display: flex; justify-content: center; align-items: flex-start; gap: 30px; width: 100%; flex-wrap: nowrap;">
-  <div style="flex: 0 0 30%; text-align: center;">
-    <iframe src="/assets/animations/solver-preview/dfp.html"
-            loading="lazy"
-            title="Live DFP demo"
-            style="width:100%; aspect-ratio:1/1; border:1px solid #d4dae2; border-radius:12px; background:#fff;"></iframe>
-    <div>
-      <a href="https://en.wikipedia.org/wiki/Davidon%E2%80%93Fletcher%E2%80%93Powell_formula" target="_blank" rel="noopener noreferrer">DFP</a>
-    </div>
-  </div>
-  <div style="flex: 0 0 30%; text-align: center;">
-    <iframe src="/assets/animations/solver-preview/trust-region.html"
-            loading="lazy"
-            title="Live TR demo"
-            style="width:100%; aspect-ratio:1/1; border:1px solid #d4dae2; border-radius:12px; background:#fff;"></iframe>
-    <div>
-      <a href="https://en.wikipedia.org/wiki/Trust_region" target="_blank" rel="noopener noreferrer">Trust Region</a>
-    </div>
-  </div>
-  <div style="flex: 0 0 30%; text-align: center;">
+  <div style="flex: 0 0 50%; text-align: center;">
     <iframe src="/assets/animations/solver-preview/bds.html"
             loading="lazy"
             title="Live BDS demo"
