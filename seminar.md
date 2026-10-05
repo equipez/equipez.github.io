@@ -54,4 +54,4 @@ The detailed schedule is as follows. It may be adjusted based on the actual situ
 | 16          | December 22  | JIANG Zao, LIN Chengqing |
 | 17          | December 29  | CHEN Yu, ZHU Huatao      |
 | 18          | January 5    | LI Haitian, HUANG Cunxin |
-| 19          |  January 12            | JIANG Zao, LIN Chengqing |
+| 19          | January 12   | JIANG Zao, LIN Chengqing |
