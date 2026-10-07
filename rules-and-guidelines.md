@@ -1,6 +1,7 @@
 # Rules & Guidelines
 
 - [Rules on the Use of AI in Academic Research](#rules-on-the-use-of-ai-in-academic-research)
+  - [References](#references)
 - [Rules on Seminars](#rules-on-seminars)
 - [Rules on Internships](#rules-on-internships)
 
@@ -20,6 +21,17 @@ Prof. ZHANG Zaikun, March 25, 2026
 9. If a thesis violates these rules, I will not approve its submission, or I will inform the committee about the violation and let it decide.
 10. These rules are necessary conditions, not sufficient ones. You do not earn academic credit simply by understanding or reproducing a piece of work. The work must be your own, as should be common sense.
 {:start="0"}
+
+### References (added on October 7, 2026)
+{: #references}
+
+\[1\] [Leiden Declaration on Artificial Intelligence and Mathematics](https://leidendeclaration.ai)
+
+\[2\] [ICIAM Statement on Mathematics and Artificial Intelligence — Discovery, Understanding and Trust](https://iciam.org/news/26/9/24/iciam-statement-mathematics-and-artificial-intelligence)
+
+\[3\] [A Severe Misalignment of AI in Mathematics](https://mathandai.org)
+
+\[4\] [SIAM Publications — Editorial Policy on Artificial Intelligence](https://epubs.siam.org/artificial-intelligence)
 
 ## Rules on Seminars
 
