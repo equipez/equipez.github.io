@@ -6,7 +6,7 @@
 
 ## Rules on the Use of AI in Academic Research
 
-L’Équipe Z, March 25, 2026
+Prof. ZHANG Zaikun, March 25, 2026
 
 0. You are encouraged to use AI, subject to academic integrity requirements. AI may assist your work, but it should not replace your understanding or responsibility.
 1. You must understand every detail of the substantive mathematical content in your work, including definitions, assumptions, algorithms, propositions, proofs, and derivations. You must be able to sketch and explain the reasoning, and reproduce the significant results and their proofs.
@@ -42,7 +42,7 @@ L’Équipe Z, January 21, 2026
 
 ## Rules on Internships
 
-L’Équipe Z, May 9, 2026
+Prof. ZHANG Zaikun, May 9, 2026
 
 Most of my graduate students are recruited only after expressing an intention to pursue academic research. Nevertheless, some may later change their plans, seek careers in industry instead, and therefore wish to undertake internships. Internships may be permitted subject to the following requirements.
 
