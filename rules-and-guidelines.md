@@ -1,7 +1,6 @@
 # Rules & Guidelines
 
 - [Rules on the Use of AI in Academic Research](#rules-on-the-use-of-ai-in-academic-research)
-  - [References](#references)
 - [Rules on Seminars](#rules-on-seminars)
 - [Rules on Internships](#rules-on-internships)
 
