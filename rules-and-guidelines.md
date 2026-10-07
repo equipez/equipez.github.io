@@ -13,5 +13,4 @@ Prof. ZHANG Zaikun, March 25, 2026
 8. Using AI does not reduce your responsibility for your work. AI-assisted material that violates these rules is unacceptable, and I will not endorse it.
 9. If a thesis violates these rules, I will not approve its submission, or I will inform the committee about the violation and let it decide.
 10. These rules are necessary conditions, not sufficient ones. You do not earn academic credit simply by understanding or reproducing a piece of work. The work must be your own, as should be common sense.
-
 {:start="0"}

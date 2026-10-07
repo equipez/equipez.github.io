@@ -3,6 +3,9 @@
 - label: Homepage
   url: /
 
+- label: Rules and Guidelines
+  url: /rules-and-guidelines
+
 - label: Software
   url: /software
 
@@ -14,9 +17,6 @@
 
 - label: Updates
   url: /updates
-
-- label: Rules and Guidelines
-  url: /rules-and-guidelines
 
 - label: GitHub
   url: https://github.com/equipez
