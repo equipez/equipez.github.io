@@ -4,7 +4,7 @@
 - Time: 13:00--17:00, Tuesday
 - Venue: Room 721, Math Building
 - Coordinator: ZHU Huatao and JIANG Zao
-- Rules: [Rules on Seminars](/rules/seminars)
+- [Rules on Seminars](/rules/seminars)
 
 ## Schedule:
 
