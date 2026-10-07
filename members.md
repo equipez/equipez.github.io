@@ -1,5 +1,6 @@
 # Members
 
+- Sept. 2026–present, [WU Peixuan](https://github.com/wupeixuan0828/), PhD student at [Sun Yat-sen University](https://www.sysu.edu.cn/)
 - Sept. 2026–present, [CHEN Yu](https://chenyu76.github.io/), MPhil student at [Sun Yat-sen University](https://www.sysu.edu.cn/)
 - Sept. 2026–present, [ZHU Huatao](https://github.com/thunderstorm-37), MPhil student at [Sun Yat-sen University](https://www.sysu.edu.cn/)
 - Sept. 2025–present, [LIN Chengqing](https://github.com/inverno15), MPhil student at [Sun Yat-sen University](https://www.sysu.edu.cn/)
