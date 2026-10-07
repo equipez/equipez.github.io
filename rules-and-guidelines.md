@@ -9,7 +9,7 @@
 Prof. ZHANG Zaikun, March 25, 2026
 
 0. You are encouraged to use AI, subject to academic integrity requirements. AI may assist your work, but it should not replace your understanding or responsibility.
-1. You must understand every detail of the substantive mathematical content in your work, including definitions, assumptions, algorithms, propositions, proofs, and derivations. You must be able to sketch and explain the reasoning, and reproduce the significant results and their proofs.
+1. You must understand every detail of the substantive mathematical content in your work, including but not limited to definitions, assumptions, algorithms, propositions, proofs, and derivations. You must be able to sketch and explain the reasoning, and reproduce the significant results and their proofs.
 2. You must be able to explain every sentence in your writing: what it means, why it is there, and how it relates to the rest of the work.
 3. You must be able to explain every substantively significant word or expression in your writing: what it means, why it is there, and why it is chosen instead of alternatives. (Before the AI era, this applied to every word and expression, not only the significant ones.)
 4. You must be able to explain every substantive component (functions, subroutines, classes, files, etc.) of your code: what it does, how it works, and its role in the program. (Before the AI era, this applied to every line of code, not only the substantive components.)
