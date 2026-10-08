@@ -39,10 +39,10 @@ Prof. ZHANG Zaikun, October 8, 2026
 
 Collaborations are encouraged, subject to the following rules. In what follows, “the group” means my research group (L’Équipe Z), whose members include students (undergraduate and graduate), postdocs, research staff, engineers, etc.
 
-1. Ideas arising from discussions within the group are intellectual property of the group.
-2. Discussions, unpublished ideas, or unpublished material of the group must not be disclosed outside the group without my permission. This does not prohibit discussions or presentations of unpublished research, but I must be consulted in advance of any such discussions or presentations.
-3. Collaborations outside the group must be approved by me in advance. Such collaborations are indeed encouraged, but they must be discussed with me beforehand.
-4. By default, work by the group should list coauthors in alphabetical order.
+1. Ideas arising from discussions within the group should be treated as intellectual property of the group unless otherwise agreed.
+2. Internal discussions, unpublished ideas, or unpublished material of the group must not be disclosed outside the group without my permission. Ordinary discussions or presentations of ongoing research are encouraged, but I must be consulted in advance.
+3. Collaborations outside the group must be discussed with me and agreed upon beforehand. Such collaborations are indeed encouraged, but I must be consulted in advance.
+4. By default, papers published by the group list coauthors in alphabetical order.
 5. Even when I am not a coauthor, members of the group are supported by my research funding, and their work should therefore acknowledge such support appropriately.
 
 ## Rules on Seminars (讨论班)
