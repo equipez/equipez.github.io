@@ -42,8 +42,8 @@ Collaborations are encouraged, subject to the following rules. In what follows, 
 1. Ideas arising from discussions within the group should be treated as intellectual property of the group unless otherwise agreed.
 2. Internal discussions, unpublished ideas, or unpublished material of the group must not be disclosed outside the group without my permission. Ordinary discussions or presentations of ongoing research are encouraged, but I must be consulted in advance.
 3. Collaborations outside the group must be discussed with me and agreed upon beforehand. Such collaborations are indeed encouraged, but I must be consulted in advance.
-4. By default, papers published by the group list coauthors in alphabetical order.
-5. Even when I am not a coauthor, members of the group are supported by my research funding, and their work should therefore acknowledge such support appropriately.
+4. I will not be a coauthor of any work unless I consider myself to have made a substantive contribution. However, even when I am not a coauthor, members of the group are supported by my research funding, and their work should therefore acknowledge such support appropriately.
+5. By default, papers published by the group [list coauthors in alphabetical order](https://www.zhangzk.net/coauthor.html).
 
 ## Rules on Seminars (讨论班)
 {: #rules-on-seminars}
@@ -71,6 +71,6 @@ Prof. ZHANG Zaikun, May 9, 2026
 
 Most of my graduate students are recruited only after expressing an intention to pursue academic research. Nevertheless, some may later change their plans, seek careers in industry instead, and therefore wish to undertake internships. Internships may be permitted subject to the following requirements.
 
-1. The student must obtain formal written permission from the relevant institution (department, faculty, university, etc.) and government authority, as applicable.
+1. Before taking an internship, the student must obtain formal written permission from the relevant institution (department, faculty, university, etc.) and government authority, as applicable.
 2. During an internship, the student must not sacrifice the quality or quantity of the research required for their graduate study.
 3. Academic requirements for graduation will not be lowered due to an internship.
