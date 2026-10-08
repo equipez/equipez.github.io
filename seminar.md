@@ -1,4 +1,4 @@
-# Seminar Schedule
+# Seminar (讨论班)
 
 - Semester: Autumn 2026
 - Time: 13:00--17:00, Tuesday

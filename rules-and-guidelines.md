@@ -1,7 +1,8 @@
 # Rules & Guidelines
 
 - [Rules on the Use of AI in Academic Research](#rules-on-the-use-of-ai-in-academic-research)
-- [Rules on Seminars](#rules-on-seminars)
+- [Rules on Academic Collaborations](#rules-on-academic-collaborations)
+- [Rules on Seminars (讨论班)](#rules-on-seminars)
 - [Rules on Internships](#rules-on-internships)
 
 ## Rules on the Use of AI in Academic Research
@@ -32,7 +33,20 @@ Prof. ZHANG Zaikun, March 25, 2026
 
 \[4\] [SIAM Publications — Editorial Policy on Artificial Intelligence](https://epubs.siam.org/artificial-intelligence)
 
-## Rules on Seminars
+## Rules on Academic Collaborations
+
+Prof. ZHANG Zaikun, October 8, 2026
+
+Collaborations are encouraged, subject to the following rules. In what follows, “the group” means my research group (L’Équipe Z), whose members include students (undergraduate and graduate), postdocs, research staff, engineers, etc.
+
+1. Ideas arising from discussions within the group are intellectual property of the group.
+2. Discussions, unpublished ideas, or unpublished material of the group must not be disclosed outside the group without my permission. This does not prohibit discussions or presentations of unpublished research, but I must be consulted in advance of any such discussions or presentations.
+3. Collaborations outside the group must be approved by me in advance. Such collaborations are indeed encouraged, but they must be discussed with me beforehand.
+4. By default, work by the group should list coauthors in alphabetical order.
+5. Even when I am not a coauthor, members of the group are supported by my research funding, and their work should therefore acknowledge such support appropriately.
+
+## Rules on Seminars (讨论班)
+{: #rules-on-seminars}
 
 L’Équipe Z, January 21, 2026
 
