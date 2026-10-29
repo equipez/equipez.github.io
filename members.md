@@ -1,10 +1,10 @@
 # Members
 
-- Sept. 2026–present, [WU Peixuan](https://github.com/wupeixuan0828/), PhD student at [Sun Yat-sen University](https://www.sysu.edu.cn/)
+- Sept. 2026–present, [WU Peixuan](https://github.com/wupeixuan0828/), PhD student in the joint training program between [Sun Yat-sen University](https://www.sysu.edu.cn/) and [Great Bay University](https://www.gbu.edu.cn/)
 - Sept. 2026–present, [CHEN Yu](https://chenyu76.github.io/), MPhil student at [Sun Yat-sen University](https://www.sysu.edu.cn/)
 - Sept. 2026–present, [ZHU Huatao](https://github.com/thunderstorm-37), MPhil student at [Sun Yat-sen University](https://www.sysu.edu.cn/)
 - Sept. 2025–present, [LIN Chengqing](https://github.com/inverno15), MPhil student at [Sun Yat-sen University](https://www.sysu.edu.cn/)
-- Sept. 2025–present, [MA Xiangrong](https://github.com/MaXiangrongmath), PhD student at [Great Bay University](https://www.gbu.edu.cn/)
+- Sept. 2025–present, [MA Xiangrong](https://github.com/MaXiangrongmath), PhD student in the joint training program between [Sun Yat-sen University](https://www.sysu.edu.cn/) and [Great Bay University](https://www.gbu.edu.cn/)
 - Sept. 2024–present, [JIANG Zao](https://github.com/Gradvu), PhD student at [Sun Yat-sen University](https://www.sysu.edu.cn/)
 - Sept. 2022–present, [HUANG Cunxin](https://opthuang.github.io/), PhD student at [The Hong Kong Polytechnic University](https://www.polyu.edu.hk/)
 - Sept. 2021–present, [LI Haitian](https://lht97.github.io/), PhD student at [The Hong Kong Polytechnic University](https://www.polyu.edu.hk/)
